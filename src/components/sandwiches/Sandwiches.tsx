@@ -85,7 +85,7 @@ const Sandwiches = () => {
               <option value="Raid">Raid</option>
               <option value="Egg">Egg</option>
               <option value="Teensy">Teensy</option>
-              <option value="Item Drop">Item Drop</option>
+              <option value="Item">Item Drop</option>
             </select>
           </div>
         </div>
