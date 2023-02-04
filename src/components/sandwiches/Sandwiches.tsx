@@ -18,40 +18,39 @@ const Sandwiches = () => {
   const handleMealPower = (e: any) => {
     setUserMealPower(e.target.value)
   }
-  const filteredSandwiches: Sandwich[] = []
-  const sandwichFilter = sandwiches.filter(sandwich => {
-    if (type.length > 0 && userMealPower.length > 0) {
-      sandwich['meal-powers'].filter((mealPower) => {
-        if (mealPower.split(" ").includes(type)) {
-          if (mealPower.split(" ").includes(userMealPower)) {
-            filteredSandwiches.push(sandwich)
-          }
-        }
-      })
-      return
-    }
-    if (type.length > 0) {
-      sandwich['meal-powers'].filter((mealPower) => {
-        if (mealPower.split(" ").includes(type)) {
-          filteredSandwiches.push(sandwich)
-        }
-      })
-    }
-    if (userMealPower.length > 0) {
-      sandwich['meal-powers'].filter((mealPower) => {
-        if (mealPower.split(" ").includes(userMealPower)) {
-          filteredSandwiches.push(sandwich)
-        }
-      })
-    }
 
-  })
+  const filteredSandwiches = sandwiches.filter(sandwich => {
+    return sandwich['meal-powers'].some(mealPower => {
+      let hasType = type.length === 0 || mealPower.includes(type);
+      let hasUserMealPower = userMealPower.length === 0 || mealPower.includes(userMealPower);
+
+      return hasType && hasUserMealPower;
+    });
+  });
+
+
   return (
     <div className="sandwich-con container-fluid d-flex justify-content-center col-md-10 col-sm-12">
       <div className='table-responsive-md'>
         <div className='pt-5 d-flex justify-content-end'>
+
+          <div onChange={handleMealPower}>
+            <select name="meal-power" className='rounded'>
+              <option value="" hidden>Choose a meal power</option>
+              <option value="Encounter">Encounter</option>
+              <option value="Title">Title</option>
+              <option value="Catching">Catching</option>
+              <option value="Humungo">Humungo</option>
+              <option value="Exp">Experience</option>
+              <option value="Sparkling">Sparkling</option>
+              <option value="Raid">Raid</option>
+              <option value="Egg">Egg</option>
+              <option value="Teensy">Teensy</option>
+              <option value="Item">Item Drop</option>
+            </select>
+          </div>
           <div>
-            <select name="type" onChange={handleType} className='rounded'>
+            <select name="type" onChange={handleType} className='rounded mp-select'>
               <option value="" hidden>Choose the pokemon type</option>
               <option value="Normal">Normal</option>
               <option value="Fire">Fire</option>
@@ -71,21 +70,6 @@ const Sandwiches = () => {
               <option value="Dragon">Dragon</option>
               <option value="Steel">Steel</option>
               <option value="Fairy">Fairy</option>
-            </select>
-          </div>
-          <div className='mp-select' onChange={handleMealPower}>
-            <select name="meal-power" className='rounded'>
-              <option value="" hidden>Choose a meal power</option>
-              <option value="Encounter">Encounter</option>
-              <option value="Title">Title</option>
-              <option value="Catching">Catching</option>
-              <option value="Humungo">Humungo</option>
-              <option value="Exp">Experience</option>
-              <option value="Sparkling">Sparkling</option>
-              <option value="Raid">Raid</option>
-              <option value="Egg">Egg</option>
-              <option value="Teensy">Teensy</option>
-              <option value="Item">Item Drop</option>
             </select>
           </div>
         </div>
