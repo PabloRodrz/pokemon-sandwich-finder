@@ -31,8 +31,8 @@ const Sandwiches = () => {
 
   return (
     <div className="sandwich-con container-fluid d-flex justify-content-center col-md-10 col-sm-12">
-      <div className='table-responsive-md'>
-        <div className='pt-5 d-flex justify-content-end'>
+      <div className='table-responsive-sm'>
+        <div className={`pt-5 d-flex justify-content-end ${window.innerWidth < 576 && 'flex-column align-items-center gap-3'} `}>
 
           <div onChange={handleMealPower}>
             <select name="meal-power" className='rounded'>
