@@ -5,6 +5,7 @@
 select {
   border: none !important;
   padding: 8px;
+  width: 14rem;
 }
 
 table {
@@ -14,4 +15,10 @@ table {
 
 .mp-select {
   margin-left: 12px;
+}
+
+@media only screen and (max-width: 768px) {
+  .mp-select {
+    margin-left: 0px;
+  }
 }
