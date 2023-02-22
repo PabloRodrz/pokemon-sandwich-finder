@@ -1,554 +1,1335 @@
 {
-    "sandwiches" : [
-        {
-            "name": "Jambon-Beurre",
-            "ingredient" : ["Ham"],
-            "seasoning" : ["Butter"],
-            "meal-powers" : [
-                "Encounter Ground Lv1",
-                "Raid Ghost Lv1",
-                "Catching Bug Lv1"
-            ]
-        },
-        {
-            "name": "Bitter Jambon-Beurre",
-            "ingredient" :["Ham"],
-            "seasoning" : ["Butter","Bitter Herba Mystica"],
-            "meal-powers" : [
-                "Title Ground Lv2",
-                "Exp. Ghost Lv2",
-                "Encounter Bug Lv2"
-            ]
-        },
-        {
-            "name": "Sweet Jambon-Beurre",
-            "ingredient" : ["Ham"],
-            "seasoning" : ["Butter","Sweet Herba Mystica"],
-            "meal-powers" : [
-                "Title Ground Lv2",
-                "Egg Lv2",
-                "Encounter Bug Lv2"
-            ]
-        },
-        {
-            "name": "Salty Jambon-Beurre",
-            "ingredient" : ["Ham"],
-            "seasoning" : ["Butter","Salty Herba Mystica"],
-            "meal-powers" : [
-                "Title Ground Lv2",
-                "Encounter Ghost Lv2",
-                "Raid Bug Lv2"
-            ]
-        },
-        {
-            "name": "Sour Jambon-Beurre",
-            "ingredient" : ["Ham"],
-            "seasoning" : ["Butter","Sour Herba Mystica"],
-            "meal-powers" : [
-                "Title Ground Lv2",
-                "Teensy Ghost Lv2",
-                "Encounter Bug Lv2"
-            ]
-        },
-        {
-            "name": "Spicy Jambon-Beurre",
-            "ingredient" : ["Ham"],
-            "seasoning" : ["Butter","Spicy Herba Mystica"],
-            "meal-powers" : [
-                "Title Ground Lv2",
-                "Humungo Ghost Lv2",
-                "Encounter Bug Lv2"
-            ]
-        },
-        {
-            "name": "Legendary Bitter Sandwich",
-            "ingredient" :["Lettuce", "Bacon"],
-            "seasoning" : ["Bitter Herba Mystica", "Pepper"],
-            "meal-powers" : [
-                "Title Rock Lv2",
-                "Exp. Ice Lv2",
-                "Encounter Grass Lv2"
-            ]
-        },
-        {
-            "name": "Legendary Salty Sandwich",
-            "ingredient" :["Lettuce", "Bacon"],
-            "seasoning" : ["Salty Herba Mystica", "Pepper"],
-            "meal-powers" : [
-                "Title Rock Lv2",
-                "Exp. Ice Lv2",
-                "Encounter Grass Lv2"
-            ]
-        },
-        {
-            "name": "Legendary Sweet Sandwich",
-            "ingredient" :["Lettuce", "Bacon"],
-            "seasoning" : ["Sweet Herba Mystica", "Pepper"],
-            "meal-powers" : [
-                "Title Rock Lv2",
-                "Egg Lv2",
-                "Encounter Grass Lv2"
-            ]
-        },
-        {
-            "name": "Legendary Sour Sandwich",
-            "ingredient" :["Lettuce", "Bacon"],
-            "seasoning" : ["Sour Herba Mystica", "Pepper"],
-            "meal-powers" : [
-                "Title Rock Lv2",
-                "Teensy Ice Lv2",
-                "Encounter Grass Lv2"
-            ]
-        },
-        {
-            "name": "Legendary Spicy Sandwich",
-            "ingredient" :["Lettuce", "Bacon"],
-            "seasoning" : ["Spicy Herba Mystica", "Pepper"],
-            "meal-powers" : [
-                "Title Rock Lv2",
-                "Humungo Ice Lv2",
-                "Encounter Grass Lv2"
-            ]
-        },
-        {
-            "name": "Jam Sandwich",
-            "ingredient" :["Strawberry"],
-            "seasoning" : ["Jam"],
-            "meal-powers" : [
-                "Catching Fighting Lv1",
-                "Item Psychic Lv1",
-                "Egg Lv1"
-            ]
-        },
-        {
-            "name": "Great Jam Sandwich",
-            "ingredient" :["Strawberry"],
-            "seasoning" : ["Jam", "Yogurt"],
-            "meal-powers" : [
-                "Catching Fighting Lv2",
-                "Item Psychic Lv1",
-                "Raid Ghost Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Jam Sandwich",
-            "ingredient" :["Strawberry","Pineapple"],
-            "seasoning" : ["Jam", "Yogurt"],
-            "meal-powers" : [
-                "Catching Dark Lv2",
-                "Item Ground Lv2",
-                "Egg Lv1"
-            ]
-        },
-        {
-            "name": "Master Jam Sandwich",
-            "ingredient" :["Strawberry","Pineapple"],
-            "seasoning" : ["Jam", "Yogurt","Sweet Herba Mystica"],
-            "meal-powers" : [
-                "Title Dark Lv2",
-                "Catching Groung Lv2",
-                "Item Fighting Lv2"
-            ]
-        },
-        {
-            "name": "Peanut Butter Sandwich",
-            "ingredient" :["Banana"],
-            "seasoning" : ["Peanut Butter"],
-            "meal-powers" : [
-                "Egg Lv1",
-                "Item Electric Lv1",
-                "Raid Bug Lv1"
-            ]
-        },
-        {
-            "name": "Great Peanut Butter Sandwich",
-            "ingredient" :["Banana"],
-            "seasoning" : ["Peanut Butter", "Butter"],
-            "meal-powers" : [
-                "Egg Lv2",
-                "Raid Electric Lv1",
-                "Exp. Normal Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Peanut Butter Sandwich",
-            "ingredient" :["Banana"],
-            "seasoning" : ["Peanut Butter", "Butter", "Jam"],
-            "meal-powers" : [
-                "Egg Lv2",
-                "Raid Normal Lv2",
-                "Item. Bug Lv1"
-            ]
-        },
-        {
-            "name": "Master Peanut Butter Sandwich",
-            "ingredient" :["Banana"],
-            "seasoning" : ["Peanut Butter", "Butter", "Jam", "Spicy Herba Mystica"],
-            "meal-powers" : [
-                "Title Electric Lv2",
-                "Raid Normal Lv2",
-                "Item. Bug Lv2"
-            ]
-        },
-        {
-            "name": "Pickle Sandwich",
-            "ingredient" :["Pickle"],
-            "seasoning" : ["Olive Oil"],
-            "meal-powers" : [
-                "Teensy Fighting Lv1",
-                "Encounter Fire Lv1",
-                "Catching Ghost Lv1"
-            ]
-        },
-        {
-            "name": "Great Pickle Sandwich",
-            "ingredient" :["Pickle","Watercress"],
-            "seasoning" : ["Olive Oil"],
-            "meal-powers" : [
-                "Item Fighting Lv2",
-                "Encounter Fire Lv1",
-                "Catching Ghost Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Pickle Sandwich",
-            "ingredient" :["Pickle","Watercress", "Basil"],
-            "seasoning" : ["Olive Oil"],
-            "meal-powers" : [
-                "Item Fighting Lv2",
-                "Egg Lv2",
-                "Catching Fire Lv1"
-            ]
-        },
-        {
-            "name": "Master Pickle Sandwich",
-            "ingredient" :["Pickle","Watercress", "Basil"],
-            "seasoning" : ["Olive Oil", "Sour Herba Mystica"],
-            "meal-powers" : [
-                "Title Fighting Lv2",
-                "Teensy Grass Lv2",
-                "Egg Lv2"
-            ]
-        },
-        {
-            "name": "Marmalade Sandwich",
-            "ingredient" :["Cheese"],
-            "seasoning" : ["Marmalade"],
-            "meal-powers" : [
-                "Item Fighting Lv1",
-                "Catching Rock Lv1",
-                "Egg Lv1"
-            ]
-        },
-        {
-            "name": "Great Marmalade Sandwich",
-            "ingredient" :["Cheese"],
-            "seasoning" : ["Marmalade", "Butter"],
-            "meal-powers" : [
-                "Egg Lv2",
-                "Raid Rock Lv1",
-                "Item Poison Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Marmalade Sandwich",
-            "ingredient" :["Cheese"],
-            "seasoning" : ["Marmalade", "Butter", "Cream Cheese"],
-            "meal-powers" : [
-                "Egg Lv2",
-                "Item Poison Lv2",
-                "Raid Fighting Lv1"
-            ]
-        },
-        {
-            "name": "Master Marmalade Sandwich",
-            "ingredient" :["Cheese"],
-            "seasoning" : ["Marmalade", "Butter", "Cream Cheese", "Salty Herba Mystica"],
-            "meal-powers" : [
-                "Title Bug Lv2",
-                "Encounter Poison Lv2",
-                "Item Fighting Lv2"
-            ]
-        },
-        {
-            "name": "Herbed-Sausage Sandwich",
-            "ingredient" :["Herbed Sausage"],
-            "seasoning" : ["Ketchup"],
-            "meal-powers" : [
-                "Encounter Fighting Lv1",
-                "Exp. Ghost Lv1",
-                "Raid Ground Lv1"
-            ]
-        },
-        {
-            "name": "Great Herbed-Sausage Sandwich",
-            "ingredient" :["Herbed Sausage"],
-            "seasoning" : ["Ketchup", "Mustard"],
-            "meal-powers" : [
-                "Encounter Ground Lv2",
-                "Exp. Ghost Lv1",
-                "Raid Fighting Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Herbed-Sausage Sandwich",
-            "ingredient" :["Herbed Sausage", "Lettuce"],
-            "seasoning" : ["Ketchup", "Mustard"],
-            "meal-powers" : [
-                "Exp. Ground Lv2",
-                "Raid Ghost Lv2",
-                "Encounter Fighting Lv1"
-            ]
-        },
-        {
-            "name": "Master Herbed-Sausage Sandwich",
-            "ingredient" :["Herbed Sausage", "Lettuce"],
-            "seasoning" : ["Ketchup", "Mustard", "Bitter Herba Mystica"],
-            "meal-powers" : [
-                "Title Ground Lv2",
-                "Exp. Fighting Lv1",
-                "Raid Normal Lv2"
-            ]
-        },
-        {
-            "name": "Curry-and-Rice-Style Sandwich",
-            "ingredient" :["Rice"],
-            "seasoning" : ["Curry Powder", "Mayonnaise"],
-            "meal-powers" : [
-                "Humungo Normal Lv1",
-                "Encounter Fire Lv1",
-                "Raid Fighting Lv1"
-            ]
-        },
-        {
-            "name": "Great Curry-and-Rice-Style Sandwich",
-            "ingredient" :["Rice","Jalapeno"],
-            "seasoning" : ["Curry Powder", "Mayonnaise"],
-            "meal-powers" : [
-                "Humungo Grass Lv2",
-                "Encounter Fighting Lv1",
-                "Item Normal Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Curry-and-Rice-Style Sandwich",
-            "ingredient" :["Rice","Jalapeno", "Tomato"],
-            "seasoning" : ["Curry Powder", "Mayonnaise"],
-            "meal-powers" : [
-                "Humungo Grass Lv2",
-                "Encounter Normal Lv2",
-                "Item Fairy Lv1"
-            ]
-        },
-        {
-            "name": "Master Curry-and-Rice-Style Sandwich",
-            "ingredient" :["Rice","Jalapeno", "Tomato"],
-            "seasoning" : ["Curry Powder", "Mayonnaise", "Spicy Herba Mystica"],
-            "meal-powers" : [
-                "Title Grass Lv2",
-                "Humungo Fairy Lv2",
-                "Encounter Normal Lv2"
-            ]
-        },
-        {
-            "name": "Dessert Sandwich",
-            "ingredient" :["Apple", "Apple"],
-            "seasoning" : ["Yogurt", "Whipped Cream"],
-            "meal-powers" : [
-                "Catching Flying Lv1",
-                "Item Ice Lv1",
-                "Egg Lv1"
-            ]
-        },
-        {
-            "name": "Great Dessert Sandwich",
-            "ingredient" :["Apple", "Apple", "Kiwi"],
-            "seasoning" : ["Yogurt", "Whipped Cream"],
-            "meal-powers" : [
-                "Catching Flying Lv2",
-                "Item Ice Lv1",
-                "Egg Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Dessert Sandwich",
-            "ingredient" :["Apple", "Apple", "Kiwi", "Strawberry"],
-            "seasoning" : ["Yogurt", "Whipped Cream"],
-            "meal-powers" : [
-                "Item Flying Lv2",
-                "Catching Ice Lv2",
-                "Egg Lv1"
-            ]
-        },
-        {
-            "name": "Master Dessert Sandwich",
-            "ingredient" :["Apple", "Apple", "Kiwi", "Strawberry"],
-            "seasoning" : ["Yogurt", "Whipped Cream", "Sweet Herba Mystica"],
-            "meal-powers" : [
-                "Title Flying Lv2",
-                "Item Poison Lv2",
-                "Catching Fighting Lv2"
-            ]
-        },
-        {
-            "name": "Tropical Sandwich",
-            "ingredient" :["Klawf Stick", "Avocado"],
-            "seasoning" : ["Marmalade"],
-            "meal-powers" : [
-                "Egg Lv1",
-                "Encounter Fighting Lv1",
-                "Catching Dragon Lv1"
-            ]
-        },
-        {
-            "name": "Great Tropical Sandwich",
-            "ingredient" :["Klawf Stick", "Avocado", "Pineapple"],
-            "seasoning" : ["Marmalade"],
-            "meal-powers" : [
-                "Catching Groung Lv2",
-                "Encounter Dark Lv1",
-                "Item Water Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Tropical Sandwich",
-            "ingredient" :["Klawf Stick", "Avocado", "Pineapple", "Jalapeno"],
-            "seasoning" : ["Marmalade"],
-            "meal-powers" : [
-                "Catching Rock Lv2",
-                "Item Water Lv2",
-                "Encounter Ground Lv1"
-            ]
-        },
-        {
-            "name": "Master Tropical Sandwich",
-            "ingredient" :["Klawf Stick", "Avocado", "Pineapple", "Jalapeno"],
-            "seasoning" : ["Marmalade", "Sour Herba Mystica"],
-            "meal-powers" : [
-                "Title Rock Lv2",
-                "Catching Water Lv2",
-                "Item Ground Lv2"
-            ]
-        },
-        {
-            "name": "Avocado Sandwich",
-            "ingredient" :["Avocado", "Smoked Fillet"],
-            "seasoning" : ["Salt"],
-            "meal-powers" : [
-                "Exp. Dragon Lv1",
-                "Encounter Electric Lv1",
-                "Catching Dark Lv1"
-            ]
-        },
-        {
-            "name": "Great Avocado Sandwich",
-            "ingredient" :["Avocado", "Smoked Fillet", "Tomato"],
-            "seasoning" : ["Salt"],
-            "meal-powers" : [
-                "Encounter Dragon Lv2",
-                "Catching Fairy Lv1",
-                "Exp. Dark Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Avocado Sandwich",
-            "ingredient" :["Avocado", "Smoked Fillet", "Tomato", "Lettuce"],
-            "seasoning" : ["Salt"],
-            "meal-powers" : [
-                "Exp. Grass Lv2",
-                "Encounter Dark Lv2",
-                "Catching Dragon Lv1"
-            ]
-        },
-        {
-            "name": "Master Avocado Sandwich",
-            "ingredient" :["Avocado", "Smoked Fillet", "Tomato", "Lettuce"],
-            "seasoning" : ["Salt", "Salty Herba Mystica"],
-            "meal-powers" : [
-                "Title Grass Lv2",
-                "Exp. Dark Lv2",
-                "Encounter Dragon Lv2"
-            ]
-        },
-        {
-            "name": "Noodle Sandwich",
-            "ingredient" :["Noodles"],
-            "seasoning" : ["Olive Oil", "Ketchup"],
-            "meal-powers" : [
-                "Encounter Poison Lv1",
-                "Raid Rock Lv1",
-                "Humungo Ground Lv1"
-            ]
-        },
-        {
-            "name": "Great Noodle Sandwich",
-            "ingredient" :["Noodles","Lettuce"],
-            "seasoning" : ["Olive Oil", "Ketchup"],
-            "meal-powers" : [
-                "Encounter Poison Lv2",
-                "Humungo Rock Lv1",
-                "Raid Ground Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Noodle Sandwich",
-            "ingredient" :["Noodles","Lettuce","Chorizo"],
-            "seasoning" : ["Olive Oil", "Ketchup"],
-            "meal-powers" : [
-                "Encounter Poison Lv2",
-                "Exp. Fire Lv2",
-                "Humungo Electric Lv1"
-            ]
-        },
-        {
-            "name": "Master Noodle Sandwich",
-            "ingredient" :["Noodles","Lettuce","Chorizo"],
-            "seasoning" : ["Olive Oil", "Ketchup", "Bitter Herba Mystica"],
-            "meal-powers" : [
-                "Title Poison Lv2",
-                "Exp. Electric Lv2",
-                "Encounter Normal Lv2"
-            ]
-        },
-        {
-            "name": "Potato Salad Sandwich",
-            "ingredient" :["Potato Salad", "Cucumber", "Red Bell Pepper"],
-            "seasoning" : ["Mayonnaise"],
-            "meal-powers" : [
-                "Teensy Bug Lv1",
-                "Encounter Steel Lv1",
-                "Catching Ghost Lv1"
-            ]
-        },
-        {
-            "name": "Great Potato Salad Sandwich",
-            "ingredient" :["Potato Salad", "Cucumber", "Red Bell Pepper", "Avocado"],
-            "seasoning" : ["Mayonnaise"],
-            "meal-powers" : [
-                "Catching Dragon Lv2",
-                "Encounter Ghost Lv1",
-                "Humungo Bug Lv1"
-            ]
-        },
-        {
-            "name": "Ultra Potato Salad Sandwich",
-            "ingredient" :["Potato Salad", "Cucumber", "Red Bell Pepper", "Avocado", "Red Onion"],
-            "seasoning" : ["Mayonnaise"],
-            "meal-powers" : [
-                "Catching Ghost Lv2",
-                "Encounter Bug Lv2",
-                "Humungo Dragon Lv1"
-            ]
-        },
-        {
-            "name": "Master Potato Salad Sandwich",
-            "ingredient" :["Potato Salad", "Cucumber", "Red Bell Pepper", "Avocado", "Red Onion"],
-            "seasoning" : ["Mayonnaise", "Sweet Herba Mystica"],
-            "meal-powers" : [
-                "Title Ghost Lv2",
-                "Catching Dragon Lv2",
-                "Encounter Normal Lv2"
-            ]
-        }
-    ]
+  "sandwiches": [
+    {
+      "name": "Jambon-Beurre",
+      "ingredient": [
+        "Ham"
+      ],
+      "seasoning": [
+        "Butter"
+      ],
+      "meal-powers": [
+        "Encounter Ground Lv1",
+        "Raid Ghost Lv1",
+        "Catching Bug Lv1"
+      ]
+    },
+    {
+      "name": "Bitter Jambon-Beurre",
+      "ingredient": [
+        "Ham"
+      ],
+      "seasoning": [
+        "Butter",
+        "Bitter Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ground Lv2",
+        "Exp. Ghost Lv2",
+        "Encounter Bug Lv2"
+      ]
+    },
+    {
+      "name": "Sweet Jambon-Beurre",
+      "ingredient": [
+        "Ham"
+      ],
+      "seasoning": [
+        "Butter",
+        "Sweet Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ground Lv2",
+        "Egg Lv2",
+        "Encounter Bug Lv2"
+      ]
+    },
+    {
+      "name": "Salty Jambon-Beurre",
+      "ingredient": [
+        "Ham"
+      ],
+      "seasoning": [
+        "Butter",
+        "Salty Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ground Lv2",
+        "Encounter Ghost Lv2",
+        "Raid Bug Lv2"
+      ]
+    },
+    {
+      "name": "Sour Jambon-Beurre",
+      "ingredient": [
+        "Ham"
+      ],
+      "seasoning": [
+        "Butter",
+        "Sour Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ground Lv2",
+        "Teensy Ghost Lv2",
+        "Encounter Bug Lv2"
+      ]
+    },
+    {
+      "name": "Spicy Jambon-Beurre",
+      "ingredient": [
+        "Ham"
+      ],
+      "seasoning": [
+        "Butter",
+        "Spicy Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ground Lv2",
+        "Humungo Ghost Lv2",
+        "Encounter Bug Lv2"
+      ]
+    },
+    {
+      "name": "Legendary Bitter Sandwich",
+      "ingredient": [
+        "Lettuce",
+        "Bacon"
+      ],
+      "seasoning": [
+        "Bitter Herba Mystica",
+        "Pepper"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Exp. Ice Lv2",
+        "Encounter Grass Lv2"
+      ]
+    },
+    {
+      "name": "Legendary Salty Sandwich",
+      "ingredient": [
+        "Lettuce",
+        "Bacon"
+      ],
+      "seasoning": [
+        "Salty Herba Mystica",
+        "Pepper"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Exp. Ice Lv2",
+        "Encounter Grass Lv2"
+      ]
+    },
+    {
+      "name": "Legendary Sweet Sandwich",
+      "ingredient": [
+        "Lettuce",
+        "Bacon"
+      ],
+      "seasoning": [
+        "Sweet Herba Mystica",
+        "Pepper"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Egg Lv2",
+        "Encounter Grass Lv2"
+      ]
+    },
+    {
+      "name": "Legendary Sour Sandwich",
+      "ingredient": [
+        "Lettuce",
+        "Bacon"
+      ],
+      "seasoning": [
+        "Sour Herba Mystica",
+        "Pepper"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Teensy Ice Lv2",
+        "Encounter Grass Lv2"
+      ]
+    },
+    {
+      "name": "Legendary Spicy Sandwich",
+      "ingredient": [
+        "Lettuce",
+        "Bacon"
+      ],
+      "seasoning": [
+        "Spicy Herba Mystica",
+        "Pepper"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Humungo Ice Lv2",
+        "Encounter Grass Lv2"
+      ]
+    },
+    {
+      "name": "Jam Sandwich",
+      "ingredient": [
+        "Strawberry"
+      ],
+      "seasoning": [
+        "Jam"
+      ],
+      "meal-powers": [
+        "Catching Fighting Lv1",
+        "Item Psychic Lv1",
+        "Egg Lv1"
+      ]
+    },
+    {
+      "name": "Great Jam Sandwich",
+      "ingredient": [
+        "Strawberry"
+      ],
+      "seasoning": [
+        "Jam",
+        "Yogurt"
+      ],
+      "meal-powers": [
+        "Catching Fighting Lv2",
+        "Item Psychic Lv1",
+        "Raid Ghost Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Jam Sandwich",
+      "ingredient": [
+        "Strawberry",
+        "Pineapple"
+      ],
+      "seasoning": [
+        "Jam",
+        "Yogurt"
+      ],
+      "meal-powers": [
+        "Catching Dark Lv2",
+        "Item Ground Lv2",
+        "Egg Lv1"
+      ]
+    },
+    {
+      "name": "Master Jam Sandwich",
+      "ingredient": [
+        "Strawberry",
+        "Pineapple"
+      ],
+      "seasoning": [
+        "Jam",
+        "Yogurt",
+        "Sweet Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Dark Lv2",
+        "Catching Groung Lv2",
+        "Item Fighting Lv2"
+      ]
+    },
+    {
+      "name": "Peanut Butter Sandwich",
+      "ingredient": [
+        "Banana"
+      ],
+      "seasoning": [
+        "Peanut Butter"
+      ],
+      "meal-powers": [
+        "Egg Lv1",
+        "Item Electric Lv1",
+        "Raid Bug Lv1"
+      ]
+    },
+    {
+      "name": "Great Peanut Butter Sandwich",
+      "ingredient": [
+        "Banana"
+      ],
+      "seasoning": [
+        "Peanut Butter",
+        "Butter"
+      ],
+      "meal-powers": [
+        "Egg Lv2",
+        "Raid Electric Lv1",
+        "Exp. Normal Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Peanut Butter Sandwich",
+      "ingredient": [
+        "Banana"
+      ],
+      "seasoning": [
+        "Peanut Butter",
+        "Butter",
+        "Jam"
+      ],
+      "meal-powers": [
+        "Egg Lv2",
+        "Raid Normal Lv2",
+        "Item. Bug Lv1"
+      ]
+    },
+    {
+      "name": "Master Peanut Butter Sandwich",
+      "ingredient": [
+        "Banana"
+      ],
+      "seasoning": [
+        "Peanut Butter",
+        "Butter",
+        "Jam",
+        "Spicy Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Electric Lv2",
+        "Raid Normal Lv2",
+        "Item. Bug Lv2"
+      ]
+    },
+    {
+      "name": "Pickle Sandwich",
+      "ingredient": [
+        "Pickle"
+      ],
+      "seasoning": [
+        "Olive Oil"
+      ],
+      "meal-powers": [
+        "Teensy Fighting Lv1",
+        "Encounter Fire Lv1",
+        "Catching Ghost Lv1"
+      ]
+    },
+    {
+      "name": "Great Pickle Sandwich",
+      "ingredient": [
+        "Pickle",
+        "Watercress"
+      ],
+      "seasoning": [
+        "Olive Oil"
+      ],
+      "meal-powers": [
+        "Item Fighting Lv2",
+        "Encounter Fire Lv1",
+        "Catching Ghost Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Pickle Sandwich",
+      "ingredient": [
+        "Pickle",
+        "Watercress",
+        "Basil"
+      ],
+      "seasoning": [
+        "Olive Oil"
+      ],
+      "meal-powers": [
+        "Item Fighting Lv2",
+        "Egg Lv2",
+        "Catching Fire Lv1"
+      ]
+    },
+    {
+      "name": "Master Pickle Sandwich",
+      "ingredient": [
+        "Pickle",
+        "Watercress",
+        "Basil"
+      ],
+      "seasoning": [
+        "Olive Oil",
+        "Sour Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Fighting Lv2",
+        "Teensy Grass Lv2",
+        "Egg Lv2"
+      ]
+    },
+    {
+      "name": "Marmalade Sandwich",
+      "ingredient": [
+        "Cheese"
+      ],
+      "seasoning": [
+        "Marmalade"
+      ],
+      "meal-powers": [
+        "Item Fighting Lv1",
+        "Catching Rock Lv1",
+        "Egg Lv1"
+      ]
+    },
+    {
+      "name": "Great Marmalade Sandwich",
+      "ingredient": [
+        "Cheese"
+      ],
+      "seasoning": [
+        "Marmalade",
+        "Butter"
+      ],
+      "meal-powers": [
+        "Egg Lv2",
+        "Raid Rock Lv1",
+        "Item Poison Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Marmalade Sandwich",
+      "ingredient": [
+        "Cheese"
+      ],
+      "seasoning": [
+        "Marmalade",
+        "Butter",
+        "Cream Cheese"
+      ],
+      "meal-powers": [
+        "Egg Lv2",
+        "Item Poison Lv2",
+        "Raid Fighting Lv1"
+      ]
+    },
+    {
+      "name": "Master Marmalade Sandwich",
+      "ingredient": [
+        "Cheese"
+      ],
+      "seasoning": [
+        "Marmalade",
+        "Butter",
+        "Cream Cheese",
+        "Salty Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Bug Lv2",
+        "Encounter Poison Lv2",
+        "Item Fighting Lv2"
+      ]
+    },
+    {
+      "name": "Herbed-Sausage Sandwich",
+      "ingredient": [
+        "Herbed Sausage"
+      ],
+      "seasoning": [
+        "Ketchup"
+      ],
+      "meal-powers": [
+        "Encounter Fighting Lv1",
+        "Exp. Ghost Lv1",
+        "Raid Ground Lv1"
+      ]
+    },
+    {
+      "name": "Great Herbed-Sausage Sandwich",
+      "ingredient": [
+        "Herbed Sausage"
+      ],
+      "seasoning": [
+        "Ketchup",
+        "Mustard"
+      ],
+      "meal-powers": [
+        "Encounter Ground Lv2",
+        "Exp. Ghost Lv1",
+        "Raid Fighting Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Herbed-Sausage Sandwich",
+      "ingredient": [
+        "Herbed Sausage",
+        "Lettuce"
+      ],
+      "seasoning": [
+        "Ketchup",
+        "Mustard"
+      ],
+      "meal-powers": [
+        "Exp. Ground Lv2",
+        "Raid Ghost Lv2",
+        "Encounter Fighting Lv1"
+      ]
+    },
+    {
+      "name": "Master Herbed-Sausage Sandwich",
+      "ingredient": [
+        "Herbed Sausage",
+        "Lettuce"
+      ],
+      "seasoning": [
+        "Ketchup",
+        "Mustard",
+        "Bitter Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ground Lv2",
+        "Exp. Fighting Lv1",
+        "Raid Normal Lv2"
+      ]
+    },
+    {
+      "name": "Curry-and-Rice-Style Sandwich",
+      "ingredient": [
+        "Rice"
+      ],
+      "seasoning": [
+        "Curry Powder",
+        "Mayonnaise"
+      ],
+      "meal-powers": [
+        "Humungo Normal Lv1",
+        "Encounter Fire Lv1",
+        "Raid Fighting Lv1"
+      ]
+    },
+    {
+      "name": "Great Curry-and-Rice-Style Sandwich",
+      "ingredient": [
+        "Rice",
+        "Jalapeno"
+      ],
+      "seasoning": [
+        "Curry Powder",
+        "Mayonnaise"
+      ],
+      "meal-powers": [
+        "Humungo Grass Lv2",
+        "Encounter Fighting Lv1",
+        "Item Normal Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Curry-and-Rice-Style Sandwich",
+      "ingredient": [
+        "Rice",
+        "Jalapeno",
+        "Tomato"
+      ],
+      "seasoning": [
+        "Curry Powder",
+        "Mayonnaise"
+      ],
+      "meal-powers": [
+        "Humungo Grass Lv2",
+        "Encounter Normal Lv2",
+        "Item Fairy Lv1"
+      ]
+    },
+    {
+      "name": "Master Curry-and-Rice-Style Sandwich",
+      "ingredient": [
+        "Rice",
+        "Jalapeno",
+        "Tomato"
+      ],
+      "seasoning": [
+        "Curry Powder",
+        "Mayonnaise",
+        "Spicy Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Grass Lv2",
+        "Humungo Fairy Lv2",
+        "Encounter Normal Lv2"
+      ]
+    },
+    {
+      "name": "Dessert Sandwich",
+      "ingredient": [
+        "Apple",
+        "Apple"
+      ],
+      "seasoning": [
+        "Yogurt",
+        "Whipped Cream"
+      ],
+      "meal-powers": [
+        "Catching Flying Lv1",
+        "Item Ice Lv1",
+        "Egg Lv1"
+      ]
+    },
+    {
+      "name": "Great Dessert Sandwich",
+      "ingredient": [
+        "Apple",
+        "Apple",
+        "Kiwi"
+      ],
+      "seasoning": [
+        "Yogurt",
+        "Whipped Cream"
+      ],
+      "meal-powers": [
+        "Catching Flying Lv2",
+        "Item Ice Lv1",
+        "Egg Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Dessert Sandwich",
+      "ingredient": [
+        "Apple",
+        "Apple",
+        "Kiwi",
+        "Strawberry"
+      ],
+      "seasoning": [
+        "Yogurt",
+        "Whipped Cream"
+      ],
+      "meal-powers": [
+        "Item Flying Lv2",
+        "Catching Ice Lv2",
+        "Egg Lv1"
+      ]
+    },
+    {
+      "name": "Master Dessert Sandwich",
+      "ingredient": [
+        "Apple",
+        "Apple",
+        "Kiwi",
+        "Strawberry"
+      ],
+      "seasoning": [
+        "Yogurt",
+        "Whipped Cream",
+        "Sweet Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Flying Lv2",
+        "Item Poison Lv2",
+        "Catching Fighting Lv2"
+      ]
+    },
+    {
+      "name": "Tropical Sandwich",
+      "ingredient": [
+        "Klawf Stick",
+        "Avocado"
+      ],
+      "seasoning": [
+        "Marmalade"
+      ],
+      "meal-powers": [
+        "Egg Lv1",
+        "Encounter Fighting Lv1",
+        "Catching Dragon Lv1"
+      ]
+    },
+    {
+      "name": "Great Tropical Sandwich",
+      "ingredient": [
+        "Klawf Stick",
+        "Avocado",
+        "Pineapple"
+      ],
+      "seasoning": [
+        "Marmalade"
+      ],
+      "meal-powers": [
+        "Catching Groung Lv2",
+        "Encounter Dark Lv1",
+        "Item Water Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Tropical Sandwich",
+      "ingredient": [
+        "Klawf Stick",
+        "Avocado",
+        "Pineapple",
+        "Jalapeno"
+      ],
+      "seasoning": [
+        "Marmalade"
+      ],
+      "meal-powers": [
+        "Catching Rock Lv2",
+        "Item Water Lv2",
+        "Encounter Ground Lv1"
+      ]
+    },
+    {
+      "name": "Master Tropical Sandwich",
+      "ingredient": [
+        "Klawf Stick",
+        "Avocado",
+        "Pineapple",
+        "Jalapeno"
+      ],
+      "seasoning": [
+        "Marmalade",
+        "Sour Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Catching Water Lv2",
+        "Item Ground Lv2"
+      ]
+    },
+    {
+      "name": "Avocado Sandwich",
+      "ingredient": [
+        "Avocado",
+        "Smoked Fillet"
+      ],
+      "seasoning": [
+        "Salt"
+      ],
+      "meal-powers": [
+        "Exp. Dragon Lv1",
+        "Encounter Electric Lv1",
+        "Catching Dark Lv1"
+      ]
+    },
+    {
+      "name": "Great Avocado Sandwich",
+      "ingredient": [
+        "Avocado",
+        "Smoked Fillet",
+        "Tomato"
+      ],
+      "seasoning": [
+        "Salt"
+      ],
+      "meal-powers": [
+        "Encounter Dragon Lv2",
+        "Catching Fairy Lv1",
+        "Exp. Dark Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Avocado Sandwich",
+      "ingredient": [
+        "Avocado",
+        "Smoked Fillet",
+        "Tomato",
+        "Lettuce"
+      ],
+      "seasoning": [
+        "Salt"
+      ],
+      "meal-powers": [
+        "Exp. Grass Lv2",
+        "Encounter Dark Lv2",
+        "Catching Dragon Lv1"
+      ]
+    },
+    {
+      "name": "Master Avocado Sandwich",
+      "ingredient": [
+        "Avocado",
+        "Smoked Fillet",
+        "Tomato",
+        "Lettuce"
+      ],
+      "seasoning": [
+        "Salt",
+        "Salty Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Grass Lv2",
+        "Exp. Dark Lv2",
+        "Encounter Dragon Lv2"
+      ]
+    },
+    {
+      "name": "Noodle Sandwich",
+      "ingredient": [
+        "Noodles"
+      ],
+      "seasoning": [
+        "Olive Oil",
+        "Ketchup"
+      ],
+      "meal-powers": [
+        "Encounter Poison Lv1",
+        "Raid Rock Lv1",
+        "Humungo Ground Lv1"
+      ]
+    },
+    {
+      "name": "Great Noodle Sandwich",
+      "ingredient": [
+        "Noodles",
+        "Lettuce"
+      ],
+      "seasoning": [
+        "Olive Oil",
+        "Ketchup"
+      ],
+      "meal-powers": [
+        "Encounter Poison Lv2",
+        "Humungo Rock Lv1",
+        "Raid Ground Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Noodle Sandwich",
+      "ingredient": [
+        "Noodles",
+        "Lettuce",
+        "Chorizo"
+      ],
+      "seasoning": [
+        "Olive Oil",
+        "Ketchup"
+      ],
+      "meal-powers": [
+        "Encounter Poison Lv2",
+        "Exp. Fire Lv2",
+        "Humungo Electric Lv1"
+      ]
+    },
+    {
+      "name": "Master Noodle Sandwich",
+      "ingredient": [
+        "Noodles",
+        "Lettuce",
+        "Chorizo"
+      ],
+      "seasoning": [
+        "Olive Oil",
+        "Ketchup",
+        "Bitter Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Poison Lv2",
+        "Exp. Electric Lv2",
+        "Encounter Normal Lv2"
+      ]
+    },
+    {
+      "name": "Potato Salad Sandwich",
+      "ingredient": [
+        "Potato Salad",
+        "Cucumber",
+        "Red Bell Pepper"
+      ],
+      "seasoning": [
+        "Mayonnaise"
+      ],
+      "meal-powers": [
+        "Teensy Bug Lv1",
+        "Encounter Steel Lv1",
+        "Catching Ghost Lv1"
+      ]
+    },
+    {
+      "name": "Great Potato Salad Sandwich",
+      "ingredient": [
+        "Potato Salad",
+        "Cucumber",
+        "Red Bell Pepper",
+        "Avocado"
+      ],
+      "seasoning": [
+        "Mayonnaise"
+      ],
+      "meal-powers": [
+        "Catching Dragon Lv2",
+        "Encounter Ghost Lv1",
+        "Humungo Bug Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Potato Salad Sandwich",
+      "ingredient": [
+        "Potato Salad",
+        "Cucumber",
+        "Red Bell Pepper",
+        "Avocado",
+        "Red Onion"
+      ],
+      "seasoning": [
+        "Mayonnaise"
+      ],
+      "meal-powers": [
+        "Catching Ghost Lv2",
+        "Encounter Bug Lv2",
+        "Humungo Dragon Lv1"
+      ]
+    },
+    {
+      "name": "Master Potato Salad Sandwich",
+      "ingredient": [
+        "Potato Salad",
+        "Cucumber",
+        "Red Bell Pepper",
+        "Avocado",
+        "Red Onion"
+      ],
+      "seasoning": [
+        "Mayonnaise",
+        "Sweet Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Ghost Lv2",
+        "Catching Dragon Lv2",
+        "Encounter Normal Lv2"
+      ]
+    },
+    {
+      "name": "Zesty Sandwich",
+      "ingredient": [
+        "Jalapeno, Onion, Herbed Sausage"
+      ],
+      "seasoning": [
+        "Chili Sauce"
+      ],
+      "meal-powers": [
+        "Humungo Psychic Lv1",
+        "Exp. Fighting Lv1",
+        "Encounter Water Lv1"
+      ]
+    },
+    {
+      "name": "Great Zesty Sandwich",
+      "ingredient": [
+        "Jalapeno, Onion, Herbed Sausage, Green Bell Pepper"
+      ],
+      "seasoning": [
+        "Chili Sauce"
+      ],
+      "meal-powers": [
+        "Humungo Psychic Lv2",
+        "Encounter Fighting Lv1",
+        "Exp Water Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Zesty Sandwich",
+      "ingredient": [
+        "Jalapeno, Onion, Herbed Sausage, Sliced Green Pepper, Watercress"
+      ],
+      "seasoning": [
+        "Chili Sauce"
+      ],
+      "meal-powers": [
+        "Humungo Psychic Lv2",
+        "Encounter Ground Lv2",
+        "Exp. Fighting Lv1"
+      ]
+    },
+    {
+      "name": "Master Zesty Sandwich",
+      "ingredient": [
+        "Jalapeno, Onion, Herbed Sausage, Green Bell Pepper, Watercress"
+      ],
+      "seasoning": [
+        "Chili Sauce, Sour Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Psychic Lv2",
+        "Teensy Fighting Lv2",
+        "Encounter Normal Lv2"
+      ]
+    },
+    {
+      "name": "Egg Sandwich",
+      "ingredient": [
+        "Egg, Cucumber"
+      ],
+      "seasoning": [
+        "Salt, Mayonnaise"
+      ],
+      "meal-powers": [
+        "Encounter Flying Lv1",
+        "Exp. Steel Lv1",
+        "Raid Rock Lv1"
+      ]
+    },
+    {
+      "name": "Great Egg Sandwich",
+      "ingredient": [
+        "Egg, Cucumber, Red Onion"
+      ],
+      "seasoning": [
+        "Salt, Mayonnaise"
+      ],
+      "meal-powers": [
+        "Encounter Flying Lv2",
+        "Exp. Steel Lv1",
+        "Raid Rock Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Egg Sandwich",
+      "ingredient": [
+        "Egg, Cucumber, Red Onion, Cheese"
+      ],
+      "seasoning": [
+        "Salt, Mayonnaise"
+      ],
+      "meal-powers": [
+        "Encounter Flying Lv2",
+        "Exp. Steel Lv2",
+        "Raid Rock Lv1"
+      ]
+    },
+    {
+      "name": "Master Egg Sandwich",
+      "ingredient": [
+        "Egg, Cucumber, Red Onion, Cheese"
+      ],
+      "seasoning": [
+        "Salt, Mayonnaise, Salty Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Flying Lv2",
+        "Encounter Rock Lv2",
+        "Exp. Normal Lv2"
+      ]
+    },
+    {
+      "name": "Classic Bocadillo",
+      "ingredient": [
+        "Prosciutto, Cheese, Potato, Tortilla"
+      ],
+      "seasoning": [
+        "Olive Oil"
+      ],
+      "meal-powers": [
+        "Encounter Ghost Lv1",
+        "Catching Grass Lv1",
+        "Item Fire Lv1"
+      ]
+    },
+    {
+      "name": "Great Classic Bocadillo",
+      "ingredient": [
+        "Prosciutto, Cheese, Potato, Tortilla"
+      ],
+      "seasoning": [
+        "Olive Oil, Curry Powder"
+      ],
+      "meal-powers": [
+        "Humungo Ghost Lv2",
+        "Catching Grass Lv1",
+        "Encounter Fire Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Classic Bocadillo",
+      "ingredient": [
+        "Prosciutto, Cheese, Potato, Tortilla, Avocado"
+      ],
+      "seasoning": [
+        "Olive Oil, Curry Powder, Bitter Herba Mystica"
+      ],
+      "meal-powers": [
+        "Humungo Dragon Lv2",
+        "Catching Fire Lv2",
+        "Encounter Ghost Lv1"
+      ]
+    },
+    {
+      "name": "Master Classic Bocadillo",
+      "ingredient": [
+        "Prosciutto, Cheese, Potato, Tortilla, Avocado"
+      ],
+      "seasoning": [
+        "Olive Oil, Curry Powder, Bitter Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Dragon Lv2",
+        "Item Ghost Lv2",
+        "Catching Normal Lv2"
+      ]
+    },
+    {
+      "name": "Refreshing Sandwich",
+      "ingredient": [
+        "Cherry Tomatoes, Avocado"
+      ],
+      "seasoning": [
+        "Marmalade, Salt"
+      ],
+      "meal-powers": [
+        "Catching Bug Lv1",
+        "Encounter Fighting Lv1",
+        "Raid Dragon Lv1"
+      ]
+    },
+    {
+      "name": "Great Refreshing Sandwich",
+      "ingredient": [
+        "Cherry Tomatoes, Avocado, Kiwi"
+      ],
+      "seasoning": [
+        "Marmalade, Salt"
+      ],
+      "meal-powers": [
+        "Catching Dragon Lv2",
+        "Encounter Fire Lv1",
+        "Item Poison Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Refreshing Sandwich",
+      "ingredient": [
+        "Cherry Tomatoes, Avocado, Kiwi, Pickle"
+      ],
+      "seasoning": [
+        "Marmalade, Salt"
+      ],
+      "meal-powers": [
+        "Catching Dragon Lv2",
+        "Encounter Fighting Lv2",
+        "Item Poison Lv1"
+      ]
+    },
+    {
+      "name": "Master Refreshing Sandwich",
+      "ingredient": [
+        "Cherry Tomatoes, Avocado, Kiwi, Pickle"
+      ],
+      "seasoning": [
+        "Marmalade, Salt"
+      ],
+      "meal-powers": [
+        "Title Dragon Lv2",
+        "Humungo Poison Lv2",
+        "Encounter Normal Lv2"
+      ]
+    },
+    {
+      "name": "BLT Sandwich",
+      "ingredient": [
+        "Bacon, Lettuce, Tomato"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard"
+      ],
+      "meal-powers": [
+        "Teensy Rock Lv1",
+        "Encounter Fairy Lv1",
+        "Catching Grass Lv1"
+      ]
+    },
+    {
+      "name": "Great BLT Sandwich",
+      "ingredient": [
+        "Bacon, Lettuce, Tomato, Basil"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard"
+      ],
+      "meal-powers": [
+        "Teensy Grass Lv2",
+        "Encounter Rock Lv2",
+        "Raid Fairy Lv1"
+      ]
+    },
+    {
+      "name": "Ultra BLT Sandwich",
+      "ingredient": [
+        "Bacon, Lettuce, Basil, Cheese"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard"
+      ],
+      "meal-powers": [
+        "Teensy Grass Lv2",
+        "Encounter Rock Lv2",
+        "Catching Fairy Lv1"
+      ]
+    },
+    {
+      "name": "Master BLT Sandwich",
+      "ingredient": [
+        "Bacon, Lettuce, Tomato, Basil, Cheese"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard, Sweet Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Grass Lv2",
+        "Catching Fairy Lv2",
+        "Encounter Normal Lv2"
+      ]
+    },
+    {
+      "name": "Fried Fillet Sandwich",
+      "ingredient": [
+        "Fried Fillet, Potato Salad"
+      ],
+      "seasoning": [
+        "Mayonnaise, Ketchup"
+      ],
+      "meal-powers": [
+        "Teensy Bug Lv1",
+        "Raid Dark Lv1",
+        "Exp. Steel Lv1"
+      ]
+    },
+    {
+      "name": "Great Fried Fillet Sandwich",
+      "ingredient": [
+        "Fried Fillet, Potato Salad, Lettuce"
+      ],
+      "seasoning": [
+        "Mayonnaise, Ketchup"
+      ],
+      "meal-powers": [
+        "Teensy Bug Lv2",
+        "Raid Dark Lv1",
+        "Catching Steel Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Fried Fillet Sandwich",
+      "ingredient": [
+        "Fried Fillet, Potato Salad, Lettuce"
+      ],
+      "seasoning": [
+        "Mayonnaise, Ketchup, Horseradish"
+      ],
+      "meal-powers": [
+        "Teensy Bug Lv2",
+        "Raid Dark Lv2",
+        "Encounter Steel Lv1"
+      ]
+    },
+    {
+      "name": "Master Fried Fillet Sandwich",
+      "ingredient": [
+        "Fried Fillet, Potato Salad, Lettuce"
+      ],
+      "seasoning": [
+        "Mayonnaise, Ketchup, Horseradish, Spicy Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Bug Lv2",
+        "Humungo Steel Lv2",
+        "Raid Normal Lv2"
+      ]
+    },
+    {
+      "name": "Ham Sandwich",
+      "ingredient": [
+        "Pickle, Ham"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard"
+      ],
+      "meal-powers": [
+        "Teensy Fighting Lv1",
+        "Encounter Normal Lv1",
+        "Raid Ground Lv1"
+      ]
+    },
+    {
+      "name": "Great Ham Sandwich",
+      "ingredient": [
+        "Pickle, Ham, Prosciutto"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard"
+      ],
+      "meal-powers": [
+        "Encounter Fighting Lv2",
+        "Catching Flying Lv1",
+        "Raid Ground Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Ham Sandwich",
+      "ingredient": [
+        "Pickle, Ham, Prosciutto, Jalapeno"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard"
+      ],
+      "meal-powers": [
+        "Teensy Rock Lv2",
+        "Encounter Fairy Lv2",
+        "Catching Grass Lv1"
+      ]
+    },
+    {
+      "name": "Master Ham Sandwich",
+      "ingredient": [
+        "Pickle, Ham, Prosciutto, Jalapeno"
+      ],
+      "seasoning": [
+        "Mayonnaise, Mustard, Salt Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Rock Lv2",
+        "Encounter Fairy Lv2",
+        "Catching Grass Lv2"
+      ]
+    },
+    {
+      "name": "Cheese Sandwich",
+      "ingredient": [
+        "Cheese"
+      ],
+      "seasoning": [
+        "Cream Cheese, Mustard, Salty Herba Mystica"
+      ],
+      "meal-powers": [
+        "Encounter Bug Lv1",
+        "Raid Water Lv1",
+        "Exp. Steel Lv1"
+      ]
+    },
+    {
+      "name": "Great Cheese Sandwich",
+      "ingredient": [
+        "Cheese, Avocado"
+      ],
+      "seasoning": [
+        "Cream Cheese, Pepper, Salt"
+      ],
+      "meal-powers": [
+        "Encounter Dragon Lv2",
+        "Raid Steel Lv1",
+        "Exp. Bug Lv1"
+      ]
+    },
+    {
+      "name": "Ultra Cheese Sandwich",
+      "ingredient": [
+        "Cheese, Avocado, Basil"
+      ],
+      "seasoning": [
+        "Cream Cheese, Pepper, Salt"
+      ],
+      "meal-powers": [
+        "Exp. Dragon Lv2",
+        "Raid Electric Lv2",
+        "Catching Water Lv1"
+      ]
+    },
+    {
+      "name": "Master Cheese Sandwich",
+      "ingredient": [
+        "Cheese, Avocado, Basil"
+      ],
+      "seasoning": [
+        "Cream Cheese, Pepper, Salt, Salty Herba Mystica"
+      ],
+      "meal-powers": [
+        "Title Dragon Lv2",
+        "Exp. Electric Lv2",
+        "Raid Water Lv2"
+      ]
+    }
+  ]
 }
