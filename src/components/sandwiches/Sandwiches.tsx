@@ -1,6 +1,6 @@
 import './sandwiches.css'
 import { sandwiches } from '../../assets/data.json'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 const Sandwiches = () => {
   interface Sandwich {
     name: string;
@@ -8,10 +8,19 @@ const Sandwiches = () => {
     seasoning: string[];
     "meal-powers": string[];
   }
-
-  //selectores: exp no tiene tipo. Los demás tienen tipo y meal power
   const [type, setType] = useState("")
   const [userMealPower, setUserMealPower] = useState("")
+  const [disabled, setDisabled] = useState(false)
+  useEffect(() => {
+    if (userMealPower === "Egg") {
+      console.log(userMealPower)
+      setType("")
+      setDisabled(true)
+    }else{
+      setDisabled(false)
+    }
+  }, [userMealPower])
+  console.log(disabled)
   const handleType = (e: any) => {
     setType(e.target.value)
   }
@@ -50,7 +59,7 @@ const Sandwiches = () => {
             </select>
           </div>
           <div>
-            <select name="type" onChange={handleType} className='rounded mp-select'>
+            <select disabled={disabled} name="type" onChange={handleType} className='rounded mp-select'>
               <option value="" hidden>Choose the pokemon type</option>
               <option value="Normal">Normal</option>
               <option value="Fire">Fire</option>
