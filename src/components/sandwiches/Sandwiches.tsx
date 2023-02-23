@@ -20,7 +20,6 @@ const Sandwiches = () => {
       setDisabled(false)
     }
   }, [userMealPower])
-  console.log(disabled)
   const handleType = (e: any) => {
     setType(e.target.value)
   }
