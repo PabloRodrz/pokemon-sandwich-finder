@@ -13,10 +13,9 @@ const Sandwiches = () => {
   const [disabled, setDisabled] = useState(false)
   useEffect(() => {
     if (userMealPower === "Egg") {
-      console.log(userMealPower)
       setType("")
       setDisabled(true)
-    }else{
+    } else {
       setDisabled(false)
     }
   }, [userMealPower])
@@ -58,7 +57,7 @@ const Sandwiches = () => {
             </select>
           </div>
           <div>
-            <select disabled={disabled} name="type" onChange={handleType} className='rounded mp-select'>
+            <select value={type} disabled={disabled} name="type" onChange={handleType} className='rounded mp-select'>
               <option value="" hidden>Choose the pokemon type</option>
               <option value="Normal">Normal</option>
               <option value="Fire">Fire</option>
@@ -106,7 +105,7 @@ const Sandwiches = () => {
               </tr>
             })
             }
-            {type && userMealPower && filteredSandwiches.length === 0 && <td colSpan={4} className="text-center"> <h4>Not sandwiches found</h4></td>}
+            {type && userMealPower && filteredSandwiches.length === 0 && <tr><td colSpan={4} className="text-center"> <h4>Not sandwiches found</h4></td></tr>}
             {!type && !userMealPower && sandwiches.map((sandwich, index) => {
               return <tr key={index}>
                 <td className='px-4'>{sandwich.name}</td>
